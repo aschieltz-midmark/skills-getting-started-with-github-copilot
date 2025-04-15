@@ -76,18 +76,22 @@ section h3 {
 }
 
 .activity-card ul {
-  margin-top: 10px;
+  margin-top: 15px;
   padding: 15px;
-  list-style-type: disc;
-  background-color: #f7f7f7;
-  border: 1px solid #ccc;
+  list-style-type: none;
+  background-color: #f0f8ff;
+  border: 1px solid #b0c4de;
   border-radius: 5px;
   color: #333;
   font-size: 14px;
 }
 
 .activity-card ul li {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
   line-height: 1.5;
 }
 
@@ -100,7 +104,8 @@ section h3 {
   display: block;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #0066cc;
+  color: #1a237e;
+  font-size: 16px;
 }
 
 .form-group {
