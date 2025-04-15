@@ -83,16 +83,24 @@ section h3 {
   border: 1px solid #ccc;
   border-radius: 5px;
   color: #333;
+  font-size: 14px;
 }
 
 .activity-card ul li {
   margin-bottom: 8px;
-  font-size: 14px;
   line-height: 1.5;
 }
 
 .activity-card ul li:last-child {
   margin-bottom: 0;
+}
+
+.activity-card ul:before {
+  content: "Participants:";
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #0066cc;
 }
 
 .form-group {
